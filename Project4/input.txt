@@ -1,0 +1,5 @@
+
+(DEFUN F (X Y) (PLUS X Y) )
+(DEFUN DIFF (X Y) (COND ((EQ X Y) NIL) (T T)))
+(DIFF 1 (F 1 0))
+
